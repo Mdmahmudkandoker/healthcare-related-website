@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  margin: 0 5px;
+}
+
+/* form design and style */
+.google, .form a {
+  padding: 10px;
+  display: inline-block;
+  margin: 5px;
+  font-size: 15px;
+  color: white;
+  background-color: #a56b00;
+  border-radius: 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border: none;
+  -webkit-box-shadow: 0 0 5px 2px dimgray;
+          box-shadow: 0 0 5px 2px dimgray;
+}
+
+.google:hover , .form a:hover{
+  cursor: pointer;
+  color: #a56b00;
+  background-color: white;
+}
+.form{
+  text-align: center;
+}
+.form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0 0 5px 2px dimgray;
+          box-shadow: 0 0 5px 2px dimgray;
+  border-radius: 10px;
+  width: 30%;
+  margin: 10px auto;
+  padding: 20px 0;
+}
+
+.form form button:not(.google) {
+  padding: 10px;
+  display: inline-block;
+  margin: 5px;
+  font-size: 12px;
+  color: white;
+  background-color: royalblue;
+  border-radius: 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border: none;
+  -webkit-box-shadow: 0 0 5px 2px dimgray;
+          box-shadow: 0 0 5px 2px dimgray;
+}
+
+.form form button:not(.google):hover {
+  cursor: pointer;
+  color: royalblue;
+  background-color: white;
+}
+
+.form form input {
+  margin: 10px auto;
+  font-size: 25px;
+}
+
+.backdrop{
+  top: 0;
+  width: 100vw;
+  position: fixed;
+  height: 100vh;
+  z-index: 0;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+/* responsive nav */
+@media screen and (max-width:700px) {
+  body, html{
+    font-size: 10px;
+  }
+  .cover{
+    padding: 0;
+  }
+  .form form {
+    width: 80%;
+  }
+  .form form input{
+   font-size: 12px;
+ }
+}

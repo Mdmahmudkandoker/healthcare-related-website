@@ -1,0 +1,14 @@
+.cover{
+    background:linear-gradient(rgb(42, 42, 252), royalblue) ,url('');
+}
+
+.service-page .container{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service-page .container>*{
+    margin: 10px auto;
+}

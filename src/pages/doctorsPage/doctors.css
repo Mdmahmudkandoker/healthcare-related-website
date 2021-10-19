@@ -1,0 +1,13 @@
+
+.doctor-page .container .css-o69gx8-MuiCardMedia-root{
+    height: 100%;
+}
+.doctor-page .container{
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.doctor-page .card{
+margin: 5px auto;
+}

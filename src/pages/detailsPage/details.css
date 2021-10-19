@@ -1,0 +1,12 @@
+img{
+    width: 100%;
+}
+.details{
+    width: 50%;
+    margin: 10px auto;
+    white-space: pre-wrap;
+    text-align: center;
+}
+.details p{
+    font-size: 1.2rem;
+}

@@ -1,0 +1,79 @@
+.cover{
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 6em 10em;
+}
+
+.homepage .cover{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('https://cdn5.vectorstock.com/i/1000x1000/62/24/blue-healthcare-and-medical-wide-banner-design-vector-31976224.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 6em 10em;
+}
+img{
+    width: 100%;
+}
+.service-preview{
+    width: 90%;
+    margin: 10px auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+}
+.service-preview .container{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service-preview .container>*{
+    margin: 10px auto;
+}
+.container>*{
+    margin: 10px auto;
+}
+.docs{
+    width: 90%;
+    margin: 10px auto;
+    background-color: rgba(3, 39, 68, 0.2);
+    text-align: center;
+    padding: 20px;
+}
+.docs .container{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.docs .css-o69gx8-MuiCardMedia-root{
+    height: 100%;
+}
+.diagnosis{
+    width: 90%;
+    margin: 10px auto;
+    background-color: rgba(3, 13, 68, 0.2);
+    text-align: center;
+    padding: 20px;
+}
+.diagnosis .container{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.diagnosis, .docs, .service-preview{
+    box-shadow: 0 0 5px 2px dimgray;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:700px){
+    .homepage .cover{
+        padding: 10px;
+      }
+     
+}
